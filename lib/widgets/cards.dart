@@ -1,24 +1,6 @@
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:practica_04/pages/home_page.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Material App',
-      theme: ThemeData(
-        scaffoldBackgroundColor: Color.fromRGBO(237, 238, 242, 1),
-      ),
-      home: HomePage(),
-    );
-  }
-
-  
-}
 
 class Cards extends StatelessWidget {
   final title;
